@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
+    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessionsSet: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after
         // application:didFinishLaunchingWithOptions.
@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let container = NSPersistentContainer(name: "UIKitDZ")
         container.loadPersistentStores(completionHandler: { storeDescription, error in
             if let error = error as NSError? {
+                print(storeDescription)
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this
                 // function in a shipping application, although it may be useful during development.
