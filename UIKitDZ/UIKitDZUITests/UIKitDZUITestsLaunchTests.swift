@@ -1,14 +1,9 @@
-//
-//  UIKitDZUITestsLaunchTests.swift
-//  UIKitDZUITests
-//
-//  Created by Халимка on 06.02.2024.
-//
+// UIKitDZUITestsLaunchTests.swift
+// Copyright © RoadMap. All rights reserved.
 
 import XCTest
 
 class UIKitDZUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

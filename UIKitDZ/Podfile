@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'UIKitDZ' do
+	pod 'SwiftLint'
+
+
+  # Pods for UIKitDZ
+
+
+  target 'UIKitDZTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'UIKitDZUITests' do
+    # Pods for testing
+  end
+
+end
