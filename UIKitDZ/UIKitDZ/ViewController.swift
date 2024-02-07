@@ -2,7 +2,6 @@
 // Copyright © RoadMap. All rights reserved.
 
 import UIKit
-///
-class ViewController: UIViewController {
 
-}
+///
+class ViewController: UIViewController {}
