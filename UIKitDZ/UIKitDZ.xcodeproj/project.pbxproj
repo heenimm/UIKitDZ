@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		0E6D636B49A3D40011F3FB7C /* libPods-UIKitDZTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B26604A285FF683FF77BE01E /* libPods-UIKitDZTests.a */; };
 		481906DB0E284D1DA1A761B0 /* libPods-UIKitDZ-UIKitDZUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BA81F8FAE1D996B61906CA /* libPods-UIKitDZ-UIKitDZUITests.a */; };
+		7B42E4EE2B8FD5720095C019 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E4ED2B8FD5720095C019 /* DetailViewController.swift */; };
+		7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */; };
+		7BB53E422B7EF94200A3C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB53E412B7EF94200A3C5E7 /* Main.storyboard */; };
+		7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */; };
+		7BB53E462B7EFB5400A3C5E7 /* DefferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */; };
+		7BB53E562B80791200A3C5E7 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E552B80791200A3C5E7 /* PushViewController.swift */; };
+		7BB53E582B808FC500A3C5E7 /* ElemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E572B808FC500A3C5E7 /* ElemViewController.swift */; };
+		7BB53E5A2B80C4F500A3C5E7 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E592B80C4F500A3C5E7 /* SegueViewController.swift */; };
+		7BB53E5C2B80F12A00A3C5E7 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E5B2B80F12A00A3C5E7 /* DelegateViewController.swift */; };
+		7BB53E642B8160A500A3C5E7 /* ClousurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E622B8160A500A3C5E7 /* ClousurViewController.swift */; };
+		7BB53E652B8160A500A3C5E7 /* ClousurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB53E632B8160A500A3C5E7 /* ClousurViewController.xib */; };
 		7BDD303C2B722B8D009B4AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD303B2B722B8D009B4AD8 /* AppDelegate.swift */; };
 		7BDD303E2B722B8D009B4AD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD303D2B722B8D009B4AD8 /* SceneDelegate.swift */; };
 		7BDD30402B722B8D009B4AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD303F2B722B8D009B4AD8 /* ViewController.swift */; };
@@ -44,6 +55,17 @@
 		1B72335D6ECE2DC9542510AB /* Pods-UIKitDZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitDZ.release.xcconfig"; path = "Target Support Files/Pods-UIKitDZ/Pods-UIKitDZ.release.xcconfig"; sourceTree = "<group>"; };
 		34E842F9A9A1411491B2CFD7 /* libPods-UIKitDZ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIKitDZ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BB43EBB0C0B81ADAE34AC5 /* Pods-UIKitDZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitDZTests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitDZTests/Pods-UIKitDZTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B42E4ED2B8FD5720095C019 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7BB53E412B7EF94200A3C5E7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelViewController.swift; sourceTree = "<group>"; };
+		7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefferViewController.swift; sourceTree = "<group>"; };
+		7BB53E552B80791200A3C5E7 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		7BB53E572B808FC500A3C5E7 /* ElemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElemViewController.swift; sourceTree = "<group>"; };
+		7BB53E592B80C4F500A3C5E7 /* SegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		7BB53E5B2B80F12A00A3C5E7 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		7BB53E622B8160A500A3C5E7 /* ClousurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClousurViewController.swift; sourceTree = "<group>"; };
+		7BB53E632B8160A500A3C5E7 /* ClousurViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClousurViewController.xib; sourceTree = "<group>"; };
 		7BDD30382B722B8D009B4AD8 /* UIKitDZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDD303B2B722B8D009B4AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BDD303D2B722B8D009B4AD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +115,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B42E4EC2B8FD55B0095C019 /* CollView */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E4ED2B8FD5720095C019 /* DetailViewController.swift */,
+				7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */,
+			);
+			path = CollView;
+			sourceTree = "<group>";
+		};
+		7BB53E542B8078E700A3C5E7 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */,
+				7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */,
+				7BB53E552B80791200A3C5E7 /* PushViewController.swift */,
+				7BB53E572B808FC500A3C5E7 /* ElemViewController.swift */,
+				7BB53E592B80C4F500A3C5E7 /* SegueViewController.swift */,
+				7BB53E5B2B80F12A00A3C5E7 /* DelegateViewController.swift */,
+				7BB53E622B8160A500A3C5E7 /* ClousurViewController.swift */,
+				7BB53E632B8160A500A3C5E7 /* ClousurViewController.xib */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
 		7BDD302F2B722B8D009B4AD8 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +164,8 @@
 		7BDD303A2B722B8D009B4AD8 /* UIKitDZ */ = {
 			isa = PBXGroup;
 			children = (
+				7B42E4EC2B8FD55B0095C019 /* CollView */,
+				7BB53E542B8078E700A3C5E7 /* Push */,
 				7BE823322B7517C800ABF06C /* MainScreenModule */,
 				7BE823332B7517F500ABF06C /* Supporting Files */,
 				7BDD304C2B722B8E009B4AD8 /* Info.plist */,
@@ -157,6 +205,7 @@
 			children = (
 				7BDD303B2B722B8D009B4AD8 /* AppDelegate.swift */,
 				7BDD303D2B722B8D009B4AD8 /* SceneDelegate.swift */,
+				7BB53E412B7EF94200A3C5E7 /* Main.storyboard */,
 				7BDD30472B722B8E009B4AD8 /* Assets.xcassets */,
 				7BDD30492B722B8E009B4AD8 /* LaunchScreen.storyboard */,
 			);
@@ -193,12 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BDD30652B722B8E009B4AD8 /* Build configuration list for PBXNativeTarget "UIKitDZ" */;
 			buildPhases = (
+				7BE8232F2B7350D400ABF06C /* SwiftFormat */,
 				7BE46AF92B72CE93009FF3A0 /* Swiftlint */,
 				BD2473BC915FAA0ADAB453BF /* [CP] Check Pods Manifest.lock */,
 				7BDD30342B722B8D009B4AD8 /* Sources */,
 				7BDD30352B722B8D009B4AD8 /* Frameworks */,
 				7BDD30362B722B8D009B4AD8 /* Resources */,
-				7BE8232F2B7350D400ABF06C /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -295,7 +344,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB53E422B7EF94200A3C5E7 /* Main.storyboard in Resources */,
 				7BDD304B2B722B8E009B4AD8 /* LaunchScreen.storyboard in Resources */,
+				7BB53E652B8160A500A3C5E7 /* ClousurViewController.xib in Resources */,
 				7BDD30482B722B8E009B4AD8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +392,7 @@
 		};
 		7BE46AF92B72CE93009FF3A0 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -356,6 +408,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 		7BE8232F2B7350D400ABF06C /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -426,11 +479,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B42E4EE2B8FD5720095C019 /* DetailViewController.swift in Sources */,
+				7BB53E5C2B80F12A00A3C5E7 /* DelegateViewController.swift in Sources */,
+				7BB53E562B80791200A3C5E7 /* PushViewController.swift in Sources */,
 				7BE823352B75180800ABF06C /* Model.swift in Sources */,
 				7BDD30462B722B8D009B4AD8 /* UIKitDZ.xcdatamodeld in Sources */,
+				7BB53E582B808FC500A3C5E7 /* ElemViewController.swift in Sources */,
+				7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */,
 				7BDD30402B722B8D009B4AD8 /* ViewController.swift in Sources */,
 				7BDD303C2B722B8D009B4AD8 /* AppDelegate.swift in Sources */,
 				7BDD303E2B722B8D009B4AD8 /* SceneDelegate.swift in Sources */,
+				7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */,
+				7BB53E642B8160A500A3C5E7 /* ClousurViewController.swift in Sources */,
+				7BB53E5A2B80C4F500A3C5E7 /* SegueViewController.swift in Sources */,
+				7BB53E462B7EFB5400A3C5E7 /* DefferViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
