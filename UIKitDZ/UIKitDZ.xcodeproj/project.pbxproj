@@ -11,6 +11,7 @@
 		481906DB0E284D1DA1A761B0 /* libPods-UIKitDZ-UIKitDZUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BA81F8FAE1D996B61906CA /* libPods-UIKitDZ-UIKitDZUITests.a */; };
 		7B42E4EE2B8FD5720095C019 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E4ED2B8FD5720095C019 /* DetailViewController.swift */; };
 		7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */; };
+		7B9711252B985675003A0D4E /* FlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711242B985675003A0D4E /* FlyViewController.swift */; };
 		7BB53E422B7EF94200A3C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB53E412B7EF94200A3C5E7 /* Main.storyboard */; };
 		7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */; };
 		7BB53E462B7EFB5400A3C5E7 /* DefferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */; };
@@ -57,6 +58,7 @@
 		75BB43EBB0C0B81ADAE34AC5 /* Pods-UIKitDZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitDZTests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitDZTests/Pods-UIKitDZTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B42E4ED2B8FD5720095C019 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7B9711242B985675003A0D4E /* FlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyViewController.swift; sourceTree = "<group>"; };
 		7BB53E412B7EF94200A3C5E7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelViewController.swift; sourceTree = "<group>"; };
 		7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefferViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 			path = CollView;
 			sourceTree = "<group>";
 		};
+		7B9711232B985647003A0D4E /* FlyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				7B9711242B985675003A0D4E /* FlyViewController.swift */,
+			);
+			path = FlyWeight;
+			sourceTree = "<group>";
+		};
 		7BB53E542B8078E700A3C5E7 /* Push */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +174,7 @@
 		7BDD303A2B722B8D009B4AD8 /* UIKitDZ */ = {
 			isa = PBXGroup;
 			children = (
+				7B9711232B985647003A0D4E /* FlyWeight */,
 				7B42E4EC2B8FD55B0095C019 /* CollView */,
 				7BB53E542B8078E700A3C5E7 /* Push */,
 				7BE823322B7517C800ABF06C /* MainScreenModule */,
@@ -487,6 +498,7 @@
 				7BB53E582B808FC500A3C5E7 /* ElemViewController.swift in Sources */,
 				7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */,
 				7BDD30402B722B8D009B4AD8 /* ViewController.swift in Sources */,
+				7B9711252B985675003A0D4E /* FlyViewController.swift in Sources */,
 				7BDD303C2B722B8D009B4AD8 /* AppDelegate.swift in Sources */,
 				7BDD303E2B722B8D009B4AD8 /* SceneDelegate.swift in Sources */,
 				7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */,
