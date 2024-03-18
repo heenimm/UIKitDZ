@@ -13,6 +13,11 @@
 		7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */; };
 		7B9711252B985675003A0D4E /* FlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711242B985675003A0D4E /* FlyViewController.swift */; };
 		7B9711392B99B850003A0D4E /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711382B99B850003A0D4E /* StateViewController.swift */; };
+		7B9711532BA3A21C003A0D4E /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711522BA3A21C003A0D4E /* MVPViewController.swift */; };
+		7B9711552BA3A232003A0D4E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711542BA3A232003A0D4E /* Person.swift */; };
+		7B9711572BA3A380003A0D4E /* MVPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711562BA3A380003A0D4E /* MVPPresenter.swift */; };
+		7B9711592BA3AF82003A0D4E /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9711582BA3AF82003A0D4E /* ModuleBuilder.swift */; };
+		7B97115C2BA3B576003A0D4E /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97115B2BA3B576003A0D4E /* MainPresenterTest.swift */; };
 		7BB53E422B7EF94200A3C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB53E412B7EF94200A3C5E7 /* Main.storyboard */; };
 		7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */; };
 		7BB53E462B7EFB5400A3C5E7 /* DefferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */; };
@@ -61,6 +66,11 @@
 		7B42E4EF2B8FE2CF0095C019 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		7B9711242B985675003A0D4E /* FlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyViewController.swift; sourceTree = "<group>"; };
 		7B9711382B99B850003A0D4E /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		7B9711522BA3A21C003A0D4E /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
+		7B9711542BA3A232003A0D4E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7B9711562BA3A380003A0D4E /* MVPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPPresenter.swift; sourceTree = "<group>"; };
+		7B9711582BA3AF82003A0D4E /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		7B97115B2BA3B576003A0D4E /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
 		7BB53E412B7EF94200A3C5E7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7BB53E432B7EF9B600A3C5E7 /* DelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelViewController.swift; sourceTree = "<group>"; };
 		7BB53E452B7EFB5400A3C5E7 /* DefferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefferViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +154,25 @@
 			path = State;
 			sourceTree = "<group>";
 		};
+		7B9711512BA3A209003A0D4E /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				7B9711522BA3A21C003A0D4E /* MVPViewController.swift */,
+				7B9711542BA3A232003A0D4E /* Person.swift */,
+				7B9711562BA3A380003A0D4E /* MVPPresenter.swift */,
+				7B9711582BA3AF82003A0D4E /* ModuleBuilder.swift */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		7B97115A2BA3B526003A0D4E /* TestMVPModule */ = {
+			isa = PBXGroup;
+			children = (
+				7B97115B2BA3B576003A0D4E /* MainPresenterTest.swift */,
+			);
+			path = TestMVPModule;
+			sourceTree = "<group>";
+		};
 		7BB53E542B8078E700A3C5E7 /* Push */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +213,7 @@
 		7BDD303A2B722B8D009B4AD8 /* UIKitDZ */ = {
 			isa = PBXGroup;
 			children = (
+				7B9711512BA3A209003A0D4E /* MVP */,
 				7B9711372B99B841003A0D4E /* State */,
 				7B9711232B985647003A0D4E /* FlyWeight */,
 				7B42E4EC2B8FD55B0095C019 /* CollView */,
@@ -199,6 +229,7 @@
 		7BDD30542B722B8E009B4AD8 /* UIKitDZTests */ = {
 			isa = PBXGroup;
 			children = (
+				7B97115A2BA3B526003A0D4E /* TestMVPModule */,
 				7BDD30552B722B8E009B4AD8 /* UIKitDZTests.swift */,
 			);
 			path = UIKitDZTests;
@@ -504,13 +535,17 @@
 				7B42E4EE2B8FD5720095C019 /* DetailViewController.swift in Sources */,
 				7BB53E5C2B80F12A00A3C5E7 /* DelegateViewController.swift in Sources */,
 				7BB53E562B80791200A3C5E7 /* PushViewController.swift in Sources */,
+				7B9711592BA3AF82003A0D4E /* ModuleBuilder.swift in Sources */,
 				7BE823352B75180800ABF06C /* Model.swift in Sources */,
+				7B9711572BA3A380003A0D4E /* MVPPresenter.swift in Sources */,
 				7B9711392B99B850003A0D4E /* StateViewController.swift in Sources */,
 				7BDD30462B722B8D009B4AD8 /* UIKitDZ.xcdatamodeld in Sources */,
+				7B9711552BA3A232003A0D4E /* Person.swift in Sources */,
 				7BB53E582B808FC500A3C5E7 /* ElemViewController.swift in Sources */,
 				7BB53E442B7EF9B600A3C5E7 /* DelViewController.swift in Sources */,
 				7BDD30402B722B8D009B4AD8 /* ViewController.swift in Sources */,
 				7B9711252B985675003A0D4E /* FlyViewController.swift in Sources */,
+				7B9711532BA3A21C003A0D4E /* MVPViewController.swift in Sources */,
 				7BDD303C2B722B8D009B4AD8 /* AppDelegate.swift in Sources */,
 				7BDD303E2B722B8D009B4AD8 /* SceneDelegate.swift in Sources */,
 				7B42E4F02B8FE2CF0095C019 /* CollectionViewCell.swift in Sources */,
@@ -525,6 +560,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BDD30562B722B8E009B4AD8 /* UIKitDZTests.swift in Sources */,
+				7B97115C2BA3B576003A0D4E /* MainPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
